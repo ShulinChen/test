@@ -1,0 +1,81 @@
+/* pseudo-selector, triggered when certain condition has occurred
+eg: a:hover{color:darkerd; text-decoration:underline;}*/
+
+/* pseudo-selector, first child. eg: ol li:first-child{color:red;};*/
+
+/* Hexadecimal color: #FFFF00; first two numbers set the amount red, then the following two
+set the amount of green, then the last two set blue.. thus there are
+256*256*256 possible values of color */ 
+
+/* h1,h2,h3,p,ul,li..all these tags's contents are block-level. take up entire width*/
+/* if it's not block-level, its inline-level tags, which doesnt take up the entire width
+like a, img, input, label*/ 
+/* solution to change from block to inline is using css selector
+	ul li{
+		display: inline;
+	}	
+*/
+
+/*
+Using padding to control the size of box without adjusting the size of the content inside
+Using margin to control the space between boxes.
+
+h2{
+	psuedo: padding: top right botoom left;
+	padding: 6px 3px 0 0;
+
+  this will aplly border to all sides
+	border:width solid black;
+	border: 6px style color;
+
+	to be more specific
+	border-bottom://;
+	border-right,up,or down://;
+
+	margin works the same as padding
+	margin: 6px 0 6px 0;
+}
+*/
+
+/* auto take as much space as you can 
+cenrting with margin auto
+margin: 30px auto 0 auto;
+*/
+
+/*Centering content
+	hi{
+		text-align:center;
+	}
+*/
+
+/*
+set background 
+
+body{
+	background-color: #5f5f5f;
+	background-image: url(images/...png); relative path, remember not "" inside url
+	background-position: (top,center or bottom) (left center or right);
+	background-repeat: repeat(or repeat-x,repeat-y,no-repeat); so a small pics can be full of the whole page
+	
+	or put it oneline
+	background: #5f5f5f, url(images/..png) top left repeat;;
+}
+*/
+
+/*
+this makes image take up the left space that would normaly saved for
+a block
+.recipes img{
+	float:left;
+
+}
+
+*/
+
+
+/* font
+body{
+	font-family: Helvetica, Arial, "Times.."; broweser wil try from left to right
+}
+
+*/
